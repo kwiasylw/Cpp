@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sylwia/Desktop/exercises/lab1/factorial/Factorial.cpp
+Factorial.h
+/home/sylwia/Desktop/exercises/lab1/factorial/Factorial.h
+Factorial.h
+/home/sylwia/Desktop/exercises/lab1/factorial/Factorial.h
+
+/home/sylwia/Desktop/exercises/lab1/factorial/Factorial.h
+

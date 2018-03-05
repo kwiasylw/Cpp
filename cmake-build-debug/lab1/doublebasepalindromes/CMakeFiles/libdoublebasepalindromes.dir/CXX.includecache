@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
+DoubleBasePalindromes.h
+/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.h
+
+/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.h
+stdint.h
+-
+string
+-
+iostream
+-
+

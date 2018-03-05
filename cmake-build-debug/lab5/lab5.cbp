@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\tests\lab7test\;CMake Files\tests\lab8test\;CMake Files\tests\lab9test\;CMake Files\tests\lab10test\;CMake Files\tests\lab11test\;CMake Files\tests\lab12test\;CMake Files\tests\lab13test\;CMake Files\lab2\;CMake Files\lab3\;CMake Files\lab4\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;CMake Files\lab9\;CMake Files\lab10\;CMake Files\lab11\;CMake Files\lab12\;CMake Files\lab13\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sylwia/Desktop/exercises/cmake-build-debug/lab5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sylwia/Desktop/exercises/cmake-build-debug/lab5/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sylwia/Desktop/exercises/cmake-build-debug/lab5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sylwia/Desktop/exercises/cmake-build-debug/lab5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sylwia/Desktop/exercises/cmake-build-debug/lab5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sylwia/Desktop/exercises/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\factorial\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\factorial\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\factorial\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/reversestring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/reversestring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/reversestring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/palindrome/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/palindrome/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab1/palindrome/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/stringutility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/stringutility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/stringutility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/memleak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/memleak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lib/memleak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab1test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab1test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab1test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab1test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab2test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab2test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab2test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab2test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab3test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab3test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab3test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab3test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab4test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab4test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab4test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab4test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab5test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab5test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab5test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab5test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab6test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab6test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab6test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab6test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab12test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab12test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab12test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab12test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab13test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab13test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/tests/lab13test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab13test\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab3\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab3\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab12\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab13\"/>
+		</Unit>
+		<Unit filename="/home/sylwia/Desktop/exercises/lab13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab13\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
