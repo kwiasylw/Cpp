@@ -235,6 +235,32 @@ libpalindrome/fast:
 .PHONY : libpalindrome/fast
 
 #=============================================================================
+# Target rules for targets named multiplicationtable
+
+# Build rule for target.
+multiplicationtable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiplicationtable
+.PHONY : multiplicationtable
+
+# fast build rule for target.
+multiplicationtable/fast:
+	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
+.PHONY : multiplicationtable/fast
+
+#=============================================================================
+# Target rules for targets named libmultiplicationtable
+
+# Build rule for target.
+libmultiplicationtable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmultiplicationtable
+.PHONY : libmultiplicationtable
+
+# fast build rule for target.
+libmultiplicationtable/fast:
+	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
+.PHONY : libmultiplicationtable/fast
+
+#=============================================================================
 # Target rules for targets named doublebasepalindromes
 
 # Build rule for target.
@@ -259,6 +285,32 @@ libdoublebasepalindromes: cmake_check_build_system
 libdoublebasepalindromes/fast:
 	$(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build
 .PHONY : libdoublebasepalindromes/fast
+
+#=============================================================================
+# Target rules for targets named array2d
+
+# Build rule for target.
+array2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array2d
+.PHONY : array2d
+
+# fast build rule for target.
+array2d/fast:
+	$(MAKE) -f lab2/array2d/CMakeFiles/array2d.dir/build.make lab2/array2d/CMakeFiles/array2d.dir/build
+.PHONY : array2d/fast
+
+#=============================================================================
+# Target rules for targets named libarray2d
+
+# Build rule for target.
+libarray2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libarray2d
+.PHONY : libarray2d
+
+# fast build rule for target.
+libarray2d/fast:
+	$(MAKE) -f lab2/array2d/CMakeFiles/libarray2d.dir/build.make lab2/array2d/CMakeFiles/libarray2d.dir/build
+.PHONY : libarray2d/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -1552,8 +1604,12 @@ help:
 	@echo "... libreversestring"
 	@echo "... palindrome"
 	@echo "... libpalindrome"
+	@echo "... multiplicationtable"
+	@echo "... libmultiplicationtable"
 	@echo "... doublebasepalindromes"
 	@echo "... libdoublebasepalindromes"
+	@echo "... array2d"
+	@echo "... libarray2d"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

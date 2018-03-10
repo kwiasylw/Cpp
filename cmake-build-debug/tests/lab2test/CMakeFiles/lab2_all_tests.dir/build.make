@@ -406,6 +406,7 @@ tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_all_tests: lab2/array2d/liblibarray2d.a
 tests/lab2test/lab2_all_tests: tests/lib/memleak/libmemleak.a
 tests/lab2test/lab2_all_tests: tests/lib/stringutility/libstringutility.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a

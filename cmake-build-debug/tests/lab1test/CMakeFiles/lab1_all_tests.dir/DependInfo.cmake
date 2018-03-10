@@ -21,6 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lab1/factorial/."
   "../lab1/reversestring/."
   "../lab1/palindrome/."
+  "../lab1/multiplicationtable/."
   "../lab1/doublebasepalindromes/."
   )
 
@@ -33,6 +34,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/factorial/CMakeFiles/libfactorial.dir/DependInfo.cmake"
   "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/reversestring/CMakeFiles/libreversestring.dir/DependInfo.cmake"
   "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/palindrome/CMakeFiles/libpalindrome.dir/DependInfo.cmake"
+  "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/DependInfo.cmake"
   "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DependInfo.cmake"
   )
 

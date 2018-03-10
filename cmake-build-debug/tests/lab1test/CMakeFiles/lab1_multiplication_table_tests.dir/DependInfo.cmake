@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../tests/lib/gtest-1.8.0/googletest"
   "../tests/lib/gtest-1.8.0/googlemock/include"
   "../tests/lib/gtest-1.8.0/googlemock"
+  "../lab1/multiplicationtable/."
   )
 
 # Targets to which this target links.
@@ -22,6 +23,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
