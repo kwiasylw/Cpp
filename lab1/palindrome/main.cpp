@@ -17,7 +17,7 @@ int main(){
     }
     else if (menu==1){
         cin >> palindrome;
-        if (is_palindrome(palindrome)){
+        if (IsPalindrome(palindrome)){
             cout << "WYraz jest palindromem" << endl;
         }
         else{
