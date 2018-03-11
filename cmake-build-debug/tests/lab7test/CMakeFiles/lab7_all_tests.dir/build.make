@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sylwia/Desktop/exercises
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Win10/Documents/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab7test/CMakeFiles/lab7_all_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o: ../tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp > CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp > CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o.requires:
 
@@ -83,16 +83,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTe
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o: ../tests/lab7test/StudentRepositoryQueryTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryTest.cpp > CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryTest.cpp > CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/StudentRepositoryQueryTest.cpp -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/StudentRepositoryQueryTest.cpp -o CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o.requires:
 
@@ -107,16 +107,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o.pr
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o: ../tests/lab7test/IterableProductTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/IterableProductTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableProductTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/IterableProductTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableProductTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/IterableProductTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableProductTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o.requires:
 
@@ -131,16 +131,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o.provides.
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o: ../tests/lab7test/IterableEnumerationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/IterableEnumerationTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableEnumerationTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/IterableEnumerationTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableEnumerationTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/IterableEnumerationTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableEnumerationTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o.requires:
 
@@ -155,16 +155,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o.provi
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o: ../tests/lab7test/IterableZipperTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/IterableZipperTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableZipperTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/IterableZipperTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableZipperTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/IterableZipperTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableZipperTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o.requires:
 
@@ -179,16 +179,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o.provides.b
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o: ../tests/lab7test/IterableTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/IterableTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/IterableTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableTest.cpp > CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/IterableTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/IterableTest.cpp -o CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o.requires:
 
@@ -203,16 +203,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o.provides.build: 
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o: ../tests/lab7test/ComparableTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/ComparableTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ComparableTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/ComparableTest.cpp > CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ComparableTest.cpp > CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/ComparableTest.cpp -o CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ComparableTest.cpp -o CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o.requires:
 
@@ -227,16 +227,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o.provides.build
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o: ../tests/lab7test/ArrayFillRandomTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillRandomTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillRandomTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillRandomTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillRandomTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillRandomTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillRandomTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o.requires:
 
@@ -251,16 +251,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o.provides.
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o: ../tests/lab7test/ArrayFillSquaredTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillSquaredTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillSquaredTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillSquaredTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillSquaredTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillSquaredTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillSquaredTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o.requires:
 
@@ -275,16 +275,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o.provides
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o: ../tests/lab7test/ArrayFillIncrementalTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillIncrementalTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillIncrementalTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillIncrementalTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillIncrementalTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillIncrementalTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillIncrementalTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o.requires:
 
@@ -299,16 +299,16 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o.prov
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o: tests/lab7test/CMakeFiles/lab7_all_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o: ../tests/lab7test/ArrayFillUniformTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillUniformTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillUniformTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillUniformTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillUniformTest.cpp > CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab7test/ArrayFillUniformTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test/ArrayFillUniformTest.cpp -o CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o.requires:
 
@@ -338,34 +338,34 @@ lab7_all_tests_OBJECTS = \
 # External object files for target lab7_all_tests
 lab7_all_tests_EXTERNAL_OBJECTS =
 
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
-tests/lab7test/lab7_all_tests: tests/lib/memleak/libmemleak.a
-tests/lab7test/lab7_all_tests: tests/lib/stringutility/libstringutility.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
-tests/lab7test/lab7_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
-tests/lab7test/lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable lab7_all_tests"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab7_all_tests.dir/link.txt --verbose=$(VERBOSE)
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/memleak/libmemleak.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/stringutility/libstringutility.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock.a
+tests/lab7test/lab7_all_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab7test/lab7_all_tests.exe: tests/lab7test/CMakeFiles/lab7_all_tests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable lab7_all_tests.exe"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab7_all_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tests/lab7test/CMakeFiles/lab7_all_tests.dir/build: tests/lab7test/lab7_all_tests
+tests/lab7test/CMakeFiles/lab7_all_tests.dir/build: tests/lab7test/lab7_all_tests.exe
 
 .PHONY : tests/lab7test/CMakeFiles/lab7_all_tests.dir/build
 
@@ -384,10 +384,10 @@ tests/lab7test/CMakeFiles/lab7_all_tests.dir/requires: tests/lab7test/CMakeFiles
 .PHONY : tests/lab7test/CMakeFiles/lab7_all_tests.dir/requires
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/clean:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -P CMakeFiles/lab7_all_tests.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -P CMakeFiles/lab7_all_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab7test/CMakeFiles/lab7_all_tests.dir/clean
 
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/depend:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sylwia/Desktop/exercises /home/sylwia/Desktop/exercises/tests/lab7test /home/sylwia/Desktop/exercises/cmake-build-debug /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test/CMakeFiles/lab7_all_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Win10/Documents/cpp /cygdrive/c/Users/Win10/Documents/cpp/tests/lab7test /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test/CMakeFiles/lab7_all_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab7test/CMakeFiles/lab7_all_tests.dir/depend
 

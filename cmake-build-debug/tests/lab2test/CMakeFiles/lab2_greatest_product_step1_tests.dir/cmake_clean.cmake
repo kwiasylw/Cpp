@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.o"
   "lab2_greatest_product_step1_tests.pdb"
-  "lab2_greatest_product_step1_tests"
+  "lab2_greatest_product_step1_tests.exe"
+  "liblab2_greatest_product_step1_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

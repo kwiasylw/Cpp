@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sylwia/Desktop/exercises/tests/lab1test/MultiplicationTableTest.cpp" "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/MultiplicationTableTest.cpp.o"
+  "/cygdrive/c/Users/Win10/Documents/cpp/tests/lab1test/MultiplicationTableTest.cpp" "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/MultiplicationTableTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,11 +19,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

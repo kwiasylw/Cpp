@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sylwia/Desktop/exercises/tests/lib/stringutility/StringUtility.cpp" "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
+  "/cygdrive/c/Users/Win10/Documents/cpp/tests/lib/stringutility/StringUtility.cpp" "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

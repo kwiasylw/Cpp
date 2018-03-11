@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sylwia/Desktop/exercises/lab1/palindrome/Palindrome.cpp" "/home/sylwia/Desktop/exercises/cmake-build-debug/lab1/palindrome/CMakeFiles/libpalindrome.dir/Palindrome.cpp.o"
+  "/cygdrive/c/Users/Win10/Documents/cpp/lab1/palindrome/Palindrome.cpp" "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/palindrome/CMakeFiles/libpalindrome.dir/Palindrome.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

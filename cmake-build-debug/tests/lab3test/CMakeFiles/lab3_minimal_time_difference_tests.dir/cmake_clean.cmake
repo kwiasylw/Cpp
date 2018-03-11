@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.o"
   "lab3_minimal_time_difference_tests.pdb"
-  "lab3_minimal_time_difference_tests"
+  "lab3_minimal_time_difference_tests.exe"
+  "liblab3_minimal_time_difference_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

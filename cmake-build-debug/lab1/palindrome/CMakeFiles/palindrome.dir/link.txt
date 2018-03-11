@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/palindrome.dir/Palindrome.cpp.o CMakeFiles/palindrome.dir/main.cpp.o  -o palindrome liblibpalindrome.a 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/palindrome.dir/Palindrome.cpp.o CMakeFiles/palindrome.dir/main.cpp.o  -o palindrome.exe -Wl,--out-implib,libpalindrome.dll.a -Wl,--major-image-version,0,--minor-image-version,0 liblibpalindrome.a 

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.o"
   "lab12_tree_inorder_tests.pdb"
-  "lab12_tree_inorder_tests"
+  "lab12_tree_inorder_tests.exe"
+  "liblab12_tree_inorder_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

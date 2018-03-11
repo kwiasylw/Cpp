@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/reversestring.dir/ReverseString.cpp.o CMakeFiles/reversestring.dir/main.cpp.o  -o reversestring liblibreversestring.a 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/reversestring.dir/ReverseString.cpp.o CMakeFiles/reversestring.dir/main.cpp.o  -o reversestring.exe -Wl,--out-implib,libreversestring.dll.a -Wl,--major-image-version,0,--minor-image-version,0 liblibreversestring.a 

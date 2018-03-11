@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab11_factory_method_tests.dir/FactoryMethodTest.cpp.o"
   "lab11_factory_method_tests.pdb"
-  "lab11_factory_method_tests"
+  "lab11_factory_method_tests.exe"
+  "liblab11_factory_method_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

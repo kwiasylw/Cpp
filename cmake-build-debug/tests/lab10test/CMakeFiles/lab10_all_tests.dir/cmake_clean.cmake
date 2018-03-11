@@ -7,7 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.o"
   "CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.o"
   "lab10_all_tests.pdb"
-  "lab10_all_tests"
+  "lab10_all_tests.exe"
+  "liblab10_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

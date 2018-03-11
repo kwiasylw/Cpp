@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.o"
   "lab3_smart_tree_step4_tests.pdb"
-  "lab3_smart_tree_step4_tests"
+  "lab3_smart_tree_step4_tests.exe"
+  "liblab3_smart_tree_step4_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

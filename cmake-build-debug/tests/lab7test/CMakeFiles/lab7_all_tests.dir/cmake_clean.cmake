@@ -11,7 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o"
   "lab7_all_tests.pdb"
-  "lab7_all_tests"
+  "lab7_all_tests.exe"
+  "liblab7_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

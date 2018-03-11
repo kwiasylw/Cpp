@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.o"
   "lab2_simple_forward_list_step3_tests.pdb"
-  "lab2_simple_forward_list_step3_tests"
+  "lab2_simple_forward_list_step3_tests.exe"
+  "liblab2_simple_forward_list_step3_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

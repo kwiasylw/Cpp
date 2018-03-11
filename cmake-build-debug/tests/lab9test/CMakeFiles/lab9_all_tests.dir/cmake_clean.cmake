@@ -4,7 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab9_all_tests.dir/XmlSerializerTest.cpp.o"
   "CMakeFiles/lab9_all_tests.dir/BaseSerializerTest.cpp.o"
   "lab9_all_tests.pdb"
-  "lab9_all_tests"
+  "lab9_all_tests.exe"
+  "liblab9_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

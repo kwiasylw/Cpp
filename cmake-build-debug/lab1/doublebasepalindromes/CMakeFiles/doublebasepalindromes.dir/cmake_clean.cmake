@@ -2,7 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o"
   "CMakeFiles/doublebasepalindromes.dir/main.cpp.o"
   "doublebasepalindromes.pdb"
-  "doublebasepalindromes"
+  "doublebasepalindromes.exe"
+  "libdoublebasepalindromes.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

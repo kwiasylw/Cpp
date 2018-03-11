@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/factorial.dir/Factorial.cpp.o CMakeFiles/factorial.dir/main.cpp.o  -o factorial liblibfactorial.a 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/factorial.dir/Factorial.cpp.o CMakeFiles/factorial.dir/main.cpp.o  -o factorial.exe -Wl,--out-implib,libfactorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 liblibfactorial.a 

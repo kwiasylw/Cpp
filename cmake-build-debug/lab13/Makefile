@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sylwia/Desktop/exercises
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Win10/Documents/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,7 +116,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles /home/sylwia/Desktop/exercises/cmake-build-debug/lab13/CMakeFiles/progress.marks
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles 0
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab13/CMakeFiles/progress.marks
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/clean
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/preinstall
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/preinstall
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab13/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

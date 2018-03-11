@@ -2,7 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/reversestring.dir/ReverseString.cpp.o"
   "CMakeFiles/reversestring.dir/main.cpp.o"
   "reversestring.pdb"
-  "reversestring"
+  "reversestring.exe"
+  "libreversestring.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

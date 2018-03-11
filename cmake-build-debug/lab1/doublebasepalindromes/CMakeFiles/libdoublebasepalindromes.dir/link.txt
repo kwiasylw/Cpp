@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblibdoublebasepalindromes.a  CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
-/usr/bin/ranlib liblibdoublebasepalindromes.a
+/usr/bin/ar.exe qc liblibdoublebasepalindromes.a  CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
+/usr/bin/ranlib.exe liblibdoublebasepalindromes.a

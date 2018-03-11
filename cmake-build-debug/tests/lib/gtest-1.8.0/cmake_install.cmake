@@ -1,4 +1,4 @@
-# Install script for directory: /home/sylwia/Desktop/exercises/tests/lib/gtest-1.8.0
+# Install script for directory: /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/gtest-1.8.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,14 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/cmake_install.cmake")
 
 endif()
 

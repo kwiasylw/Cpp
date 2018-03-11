@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sylwia/Desktop/exercises
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Win10/Documents/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lib/memleak/CMakeFiles/memleak.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lib/memleak/CMakeFiles/memleak.dir/flags.make
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o: tests/lib/memleak/CMakeFiles/memleak.dir/flags.make
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o: ../tests/lib/memleak/MemLeak.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memleak.dir/MemLeak.cpp.o -c /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeak.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memleak.dir/MemLeak.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeak.cpp
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memleak.dir/MemLeak.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeak.cpp > CMakeFiles/memleak.dir/MemLeak.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeak.cpp > CMakeFiles/memleak.dir/MemLeak.cpp.i
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memleak.dir/MemLeak.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeak.cpp -o CMakeFiles/memleak.dir/MemLeak.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeak.cpp -o CMakeFiles/memleak.dir/MemLeak.cpp.s
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o.requires:
 
@@ -83,16 +83,16 @@ tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak.cpp.o.provides.build: tests/lib
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o: tests/lib/memleak/CMakeFiles/memleak.dir/flags.make
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o: ../tests/lib/memleak/MemLeakTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memleak.dir/MemLeakTest.cpp.o -c /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeakTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memleak.dir/MemLeakTest.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeakTest.cpp
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memleak.dir/MemLeakTest.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeakTest.cpp > CMakeFiles/memleak.dir/MemLeakTest.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeakTest.cpp > CMakeFiles/memleak.dir/MemLeakTest.cpp.i
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memleak.dir/MemLeakTest.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lib/memleak/MemLeakTest.cpp -o CMakeFiles/memleak.dir/MemLeakTest.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak/MemLeakTest.cpp -o CMakeFiles/memleak.dir/MemLeakTest.cpp.s
 
 tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o.requires:
 
@@ -117,9 +117,9 @@ tests/lib/memleak/libmemleak.a: tests/lib/memleak/CMakeFiles/memleak.dir/MemLeak
 tests/lib/memleak/libmemleak.a: tests/lib/memleak/CMakeFiles/memleak.dir/MemLeakTest.cpp.o
 tests/lib/memleak/libmemleak.a: tests/lib/memleak/CMakeFiles/memleak.dir/build.make
 tests/lib/memleak/libmemleak.a: tests/lib/memleak/CMakeFiles/memleak.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmemleak.a"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -P CMakeFiles/memleak.dir/cmake_clean_target.cmake
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memleak.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmemleak.a"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -P CMakeFiles/memleak.dir/cmake_clean_target.cmake
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memleak.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lib/memleak/CMakeFiles/memleak.dir/build: tests/lib/memleak/libmemleak.a
@@ -132,10 +132,10 @@ tests/lib/memleak/CMakeFiles/memleak.dir/requires: tests/lib/memleak/CMakeFiles/
 .PHONY : tests/lib/memleak/CMakeFiles/memleak.dir/requires
 
 tests/lib/memleak/CMakeFiles/memleak.dir/clean:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -P CMakeFiles/memleak.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak && $(CMAKE_COMMAND) -P CMakeFiles/memleak.dir/cmake_clean.cmake
 .PHONY : tests/lib/memleak/CMakeFiles/memleak.dir/clean
 
 tests/lib/memleak/CMakeFiles/memleak.dir/depend:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sylwia/Desktop/exercises /home/sylwia/Desktop/exercises/tests/lib/memleak /home/sylwia/Desktop/exercises/cmake-build-debug /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Win10/Documents/cpp /cygdrive/c/Users/Win10/Documents/cpp/tests/lib/memleak /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lib/memleak/CMakeFiles/memleak.dir/depend
 

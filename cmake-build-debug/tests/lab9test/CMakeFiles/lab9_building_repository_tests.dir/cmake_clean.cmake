@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab9_building_repository_tests.dir/BuildingRepositoryTest.cpp.o"
   "lab9_building_repository_tests.pdb"
-  "lab9_building_repository_tests"
+  "lab9_building_repository_tests.exe"
+  "liblab9_building_repository_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

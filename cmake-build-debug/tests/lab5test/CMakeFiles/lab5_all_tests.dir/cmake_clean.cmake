@@ -3,7 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.o"
   "CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.o"
   "lab5_all_tests.pdb"
-  "lab5_all_tests"
+  "lab5_all_tests.exe"
+  "liblab5_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

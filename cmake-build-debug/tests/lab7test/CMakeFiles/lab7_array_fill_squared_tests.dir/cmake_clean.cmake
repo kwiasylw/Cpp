@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.o"
   "lab7_array_fill_squared_tests.pdb"
-  "lab7_array_fill_squared_tests"
+  "lab7_array_fill_squared_tests.exe"
+  "liblab7_array_fill_squared_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

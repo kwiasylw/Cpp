@@ -2,7 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.o"
   "CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.o"
   "lab13_all_tests.pdb"
-  "lab13_all_tests"
+  "lab13_all_tests.exe"
+  "liblab13_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

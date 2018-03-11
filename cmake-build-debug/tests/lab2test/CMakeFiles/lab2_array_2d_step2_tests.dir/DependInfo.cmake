@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sylwia/Desktop/exercises/tests/lab2test/Array2dStep2Test.cpp" "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.o"
+  "/cygdrive/c/Users/Win10/Documents/cpp/tests/lab2test/Array2dStep2Test.cpp" "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,13 +21,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/lab2/array2d/CMakeFiles/libarray2d.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
-  "/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab2/array2d/CMakeFiles/libarray2d.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

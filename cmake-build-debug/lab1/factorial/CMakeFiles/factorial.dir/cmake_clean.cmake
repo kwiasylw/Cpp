@@ -2,7 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/factorial.dir/Factorial.cpp.o"
   "CMakeFiles/factorial.dir/main.cpp.o"
   "factorial.pdb"
-  "factorial"
+  "factorial.exe"
+  "libfactorial.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

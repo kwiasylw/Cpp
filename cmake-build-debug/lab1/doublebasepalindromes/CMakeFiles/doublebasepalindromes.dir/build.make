@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sylwia/Desktop/exercises
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Win10/Documents/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/flags.ma
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/flags.make
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o: ../lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o -c /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp > CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp > CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp -o CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp -o CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalind
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/flags.make
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o: ../lab1/doublebasepalindromes/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doublebasepalindromes.dir/main.cpp.o -c /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doublebasepalindromes.dir/main.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/main.cpp
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doublebasepalindromes.dir/main.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/main.cpp > CMakeFiles/doublebasepalindromes.dir/main.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/main.cpp > CMakeFiles/doublebasepalindromes.dir/main.cpp.i
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doublebasepalindromes.dir/main.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes/main.cpp -o CMakeFiles/doublebasepalindromes.dir/main.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes/main.cpp -o CMakeFiles/doublebasepalindromes.dir/main.cpp.s
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o.requires:
 
@@ -113,16 +113,16 @@ doublebasepalindromes_OBJECTS = \
 # External object files for target doublebasepalindromes
 doublebasepalindromes_EXTERNAL_OBJECTS =
 
-lab1/doublebasepalindromes/doublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
-lab1/doublebasepalindromes/doublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o
-lab1/doublebasepalindromes/doublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make
-lab1/doublebasepalindromes/doublebasepalindromes: lab1/doublebasepalindromes/liblibdoublebasepalindromes.a
-lab1/doublebasepalindromes/doublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable doublebasepalindromes"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doublebasepalindromes.dir/link.txt --verbose=$(VERBOSE)
+lab1/doublebasepalindromes/doublebasepalindromes.exe: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
+lab1/doublebasepalindromes/doublebasepalindromes.exe: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o
+lab1/doublebasepalindromes/doublebasepalindromes.exe: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make
+lab1/doublebasepalindromes/doublebasepalindromes.exe: lab1/doublebasepalindromes/liblibdoublebasepalindromes.a
+lab1/doublebasepalindromes/doublebasepalindromes.exe: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable doublebasepalindromes.exe"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doublebasepalindromes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build: lab1/doublebasepalindromes/doublebasepalindromes
+lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build: lab1/doublebasepalindromes/doublebasepalindromes.exe
 
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build
 
@@ -132,10 +132,10 @@ lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/requires: lab1/d
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/requires
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/clean:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/doublebasepalindromes.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/doublebasepalindromes.dir/cmake_clean.cmake
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/clean
 
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/depend:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sylwia/Desktop/exercises /home/sylwia/Desktop/exercises/lab1/doublebasepalindromes /home/sylwia/Desktop/exercises/cmake-build-debug /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes /home/sylwia/Desktop/exercises/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Win10/Documents/cpp /cygdrive/c/Users/Win10/Documents/cpp/lab1/doublebasepalindromes /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/depend
 

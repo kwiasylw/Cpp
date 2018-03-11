@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o"
   "lab8_movie_subtitles_tests.pdb"
-  "lab8_movie_subtitles_tests"
+  "lab8_movie_subtitles_tests.exe"
+  "liblab8_movie_subtitles_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

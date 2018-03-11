@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.o"
   "lab5_memory_chunk_tests.pdb"
-  "lab5_memory_chunk_tests"
+  "lab5_memory_chunk_tests.exe"
+  "liblab5_memory_chunk_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

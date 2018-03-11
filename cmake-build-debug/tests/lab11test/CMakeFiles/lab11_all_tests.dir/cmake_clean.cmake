@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab11_all_tests.dir/FactoryMethodTest.cpp.o"
   "lab11_all_tests.pdb"
-  "lab11_all_tests"
+  "lab11_all_tests.exe"
+  "liblab11_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

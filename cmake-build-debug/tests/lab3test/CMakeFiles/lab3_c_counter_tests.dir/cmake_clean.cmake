@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.o"
   "lab3_c_counter_tests.pdb"
-  "lab3_c_counter_tests"
+  "lab3_c_counter_tests.exe"
+  "liblab3_c_counter_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sylwia/Desktop/exercises/tests
+# Install script for directory: /cygdrive/c/Users/Win10/Documents/cpp/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,29 +27,24 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/stringutility/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lib/memleak/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab1test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab3test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab4test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab5test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab6test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab7test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab8test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab9test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab10test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab11test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab12test/cmake_install.cmake")
-  include("/home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab13test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/gtest-1.8.0/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/stringutility/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lib/memleak/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab1test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab3test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab4test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab5test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab6test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab7test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab8test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab9test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab10test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab11test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab12test/cmake_install.cmake")
+  include("/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab13test/cmake_install.cmake")
 
 endif()
 

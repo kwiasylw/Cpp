@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.o"
   "lab10_algo_step5_tests.pdb"
-  "lab10_algo_step5_tests"
+  "lab10_algo_step5_tests.exe"
+  "liblab10_algo_step5_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

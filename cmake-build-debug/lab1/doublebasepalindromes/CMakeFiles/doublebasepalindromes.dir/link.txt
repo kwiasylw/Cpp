@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o CMakeFiles/doublebasepalindromes.dir/main.cpp.o  -o doublebasepalindromes liblibdoublebasepalindromes.a 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o CMakeFiles/doublebasepalindromes.dir/main.cpp.o  -o doublebasepalindromes.exe -Wl,--out-implib,libdoublebasepalindromes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 liblibdoublebasepalindromes.a 

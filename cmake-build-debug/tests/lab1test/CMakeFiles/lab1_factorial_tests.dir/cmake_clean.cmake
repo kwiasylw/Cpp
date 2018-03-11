@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o"
   "lab1_factorial_tests.pdb"
-  "lab1_factorial_tests"
+  "lab1_factorial_tests.exe"
+  "liblab1_factorial_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

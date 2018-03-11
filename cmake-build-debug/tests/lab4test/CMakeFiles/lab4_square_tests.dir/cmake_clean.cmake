@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.o"
   "lab4_square_tests.pdb"
-  "lab4_square_tests"
+  "lab4_square_tests.exe"
+  "liblab4_square_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

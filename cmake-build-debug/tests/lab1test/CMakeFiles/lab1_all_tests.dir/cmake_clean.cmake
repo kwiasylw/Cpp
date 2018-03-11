@@ -5,7 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o"
   "CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o"
   "lab1_all_tests.pdb"
-  "lab1_all_tests"
+  "lab1_all_tests.exe"
+  "liblab1_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

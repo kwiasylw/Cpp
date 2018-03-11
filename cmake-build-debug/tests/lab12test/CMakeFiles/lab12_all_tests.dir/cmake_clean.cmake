@@ -7,7 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.o"
   "CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.o"
   "lab12_all_tests.pdb"
-  "lab12_all_tests"
+  "lab12_all_tests.exe"
+  "liblab12_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

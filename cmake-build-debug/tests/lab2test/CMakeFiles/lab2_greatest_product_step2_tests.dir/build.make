@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/sylwia/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Win10/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sylwia/Desktop/exercises
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Win10/Documents/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sylwia/Desktop/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/flags.ma
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/flags.make
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o: ../tests/lab2test/GreatestProductStep2Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o -c /home/sylwia/Desktop/exercises/tests/lab2test/GreatestProductStep2Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o -c /cygdrive/c/Users/Win10/Documents/cpp/tests/lab2test/GreatestProductStep2Test.cpp
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sylwia/Desktop/exercises/tests/lab2test/GreatestProductStep2Test.cpp > CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Win10/Documents/cpp/tests/lab2test/GreatestProductStep2Test.cpp > CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sylwia/Desktop/exercises/tests/lab2test/GreatestProductStep2Test.cpp -o CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Win10/Documents/cpp/tests/lab2test/GreatestProductStep2Test.cpp -o CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o.requires:
 
@@ -88,24 +88,24 @@ lab2_greatest_product_step2_tests_OBJECTS = \
 # External object files for target lab2_greatest_product_step2_tests
 lab2_greatest_product_step2_tests_EXTERNAL_OBJECTS =
 
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/stringutility/libstringutility.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/memleak/libmemleak.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
-tests/lab2test/lab2_greatest_product_step2_tests: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sylwia/Desktop/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_greatest_product_step2_tests"
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_greatest_product_step2_tests.dir/link.txt --verbose=$(VERBOSE)
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/stringutility/libstringutility.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/memleak/libmemleak.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_greatest_product_step2_tests.exe: tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_greatest_product_step2_tests.exe"
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_greatest_product_step2_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build: tests/lab2test/lab2_greatest_product_step2_tests
+tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build: tests/lab2test/lab2_greatest_product_step2_tests.exe
 
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
 
@@ -114,10 +114,10 @@ tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/requires: tests/
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/requires
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/clean:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_greatest_product_step2_tests.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_greatest_product_step2_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/clean
 
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/depend:
-	cd /home/sylwia/Desktop/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sylwia/Desktop/exercises /home/sylwia/Desktop/exercises/tests/lab2test /home/sylwia/Desktop/exercises/cmake-build-debug /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test /home/sylwia/Desktop/exercises/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Win10/Documents/cpp /cygdrive/c/Users/Win10/Documents/cpp/tests/lab2test /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test /cygdrive/c/Users/Win10/Documents/cpp/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/depend
 

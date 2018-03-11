@@ -6,7 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.o"
   "CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.o"
   "lab4_all_tests.pdb"
-  "lab4_all_tests"
+  "lab4_all_tests.exe"
+  "liblab4_all_tests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
